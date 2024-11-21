@@ -7,4 +7,4 @@ entry_points:
   main:
     parameters:
       model_name: {type: str, default: "gpt2"}
-    command: "mkdir krk ; python main.py  --model_name {model_name}"
+    command: "python main.py  --model_name {model_name}"
