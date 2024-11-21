@@ -1,0 +1,10 @@
+# conversational_model_project/conda.yaml
+name: conversational_model_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch
+  - transformers
+  - mlflow
