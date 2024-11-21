@@ -1,0 +1,10 @@
+# conversational_model_project/MLproject
+name: Conversational_Model_Project
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      model_name: {type: str, default: "gpt2"}
+    command: "mkdir krk ; python main.py  --model_name {model_name}"
